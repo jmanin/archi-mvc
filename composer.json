@@ -1,0 +1,18 @@
+{
+    "name": "jimmy/mvc",
+    "description": "archi mvc",
+    "authors": [
+        {
+            "name": "Jimmy Manin",
+            "email": "jimmy.manin@digiframes.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Components\\": "components/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    }
+}
